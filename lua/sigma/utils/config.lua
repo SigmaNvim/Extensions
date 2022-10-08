@@ -3,7 +3,7 @@ local M = {}
 M.custom = {
   config_dir_rel = "lua/custom",
   config_dir_abs = vim.fn.stdpath "config" .. "/lua/custom",
-  default_sigmarc_example_path = vim.fn.stdpath "data" .. "/site/pack/packer/opt/extensions/examples/sigmarc.lua",
+  default_sigmarc_example_path = vim.fn.stdpath "data" .. "/site/pack/packer/opt/Extensions/examples/sigmarc.lua",
   default_sigmarc_path = vim.fn.stdpath "config" .. "/lua/custom/" .. "sigmarc.lua",
 }
 
